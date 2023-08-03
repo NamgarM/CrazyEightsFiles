@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3802079960902144106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3802079960902144104}
+  - component: {fileID: 3802079960902144105}
+  - component: {fileID: 3802079960902144103}
+  m_Layer: 0
+  m_Name: GestureDetection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3802079960902144104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802079960902144106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3802079960902144105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802079960902144106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53980037d421c6549a69b91305738173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tableTransform: {fileID: 0}
+  _detectionThreshold: 0.1
+  _spawner: {fileID: 0}
+  _gestures:
+  - Name: Point with Two Fingers
+    FingerDatas:
+    - {x: 0.000000008346762, y: 0.0000000014147633, z: 6.109777e-11}
+    - {x: 0.000000008346762, y: 0.0000000014147633, z: 6.109777e-11}
+    - {x: 0.02006928, y: 0.0115541145, z: 0.010496526}
+    - {x: 0.038308583, y: 0.024710309, z: 0.021074468}
+    - {x: 0.065043986, y: 0.041862864, z: 0.028009636}
+    - {x: 0.09450626, y: 0.054169435, z: 0.01694188}
+    - {x: 0.095996216, y: 0.0073164916, z: 0.023550687}
+    - {x: 0.13029848, y: 0.023106385, z: 0.020012816}
+    - {x: 0.15218213, y: 0.03335047, z: 0.01739941}
+    - {x: 0.09564656, y: 0.0025431786, z: 0.0017259195}
+    - {x: 0.13407679, y: 0.021588447, z: -0.00004269421}
+    - {x: 0.15877354, y: 0.033718575, z: -0.0014235467}
+    - {x: 0.08869381, y: 0.0065293093, z: -0.017465241}
+    - {x: 0.11013929, y: 0.03909846, z: -0.017269557}
+    - {x: 0.087761715, y: 0.051784478, z: -0.010602565}
+    - {x: 0.03407356, y: 0.009419851, z: -0.02299858}
+    - {x: 0.077895865, y: 0.013691171, z: -0.03505408}
+    - {x: 0.08679586, y: 0.042428553, z: -0.028833568}
+    - {x: 0.06920301, y: 0.048349097, z: -0.020587854}
+    - {x: 0.109412745, y: 0.059410304, z: -0.0019403726}
+    - {x: 0.17354366, y: 0.03873991, z: 0.01341201}
+    - {x: 0.18297073, y: 0.039538503, z: -0.0037172325}
+    - {x: 0.06680972, y: 0.04037885, z: -0.005568661}
+    - {x: 0.05198399, y: 0.0365454, z: -0.013782826}
+    HandPos: {x: -0.059605762, y: -0.36560568, z: 0.68859506}
+  - Name: Thumbs Up
+    FingerDatas:
+    - {x: 0.000000016782204, y: 0.000000002077853, z: -8.573731e-10}
+    - {x: 0.000000016782204, y: 0.000000002077853, z: -8.573731e-10}
+    - {x: 0.020069283, y: 0.011554099, z: 0.0104965}
+    - {x: 0.033016223, y: 0.013105838, z: 0.03165351}
+    - {x: 0.058231093, y: 0.009362698, z: 0.051834892}
+    - {x: 0.08441276, y: 0.00054303685, z: 0.07129538}
+    - {x: 0.095996276, y: 0.0073164506, z: 0.023550628}
+    - {x: 0.10244518, y: 0.044558413, z: 0.020399764}
+    - {x: 0.07816019, y: 0.043867093, z: 0.021053798}
+    - {x: 0.09564661, y: 0.002543142, z: 0.0017259112}
+    - {x: 0.100269474, y: 0.04521875, z: 0.0013392927}
+    - {x: 0.07309662, y: 0.04486741, z: 0.005866098}
+    - {x: 0.08869381, y: 0.006529308, z: -0.017465224}
+    - {x: 0.09150157, y: 0.045316122, z: -0.014567894}
+    - {x: 0.066098526, y: 0.044559877, z: -0.006805447}
+    - {x: 0.034073565, y: 0.009419843, z: -0.022998586}
+    - {x: 0.07789585, y: 0.013691173, z: -0.03505404}
+    - {x: 0.08338199, y: 0.043001797, z: -0.027669234}
+    - {x: 0.06443841, y: 0.0444089, z: -0.020477949}
+    - {x: 0.09612912, y: -0.007583704, z: 0.09136755}
+    - {x: 0.069912255, y: 0.023126857, z: 0.022807073}
+    - {x: 0.06269686, y: 0.02264698, z: 0.010633953}
+    - {x: 0.057161864, y: 0.022072744, z: -0.0038259912}
+    - {x: 0.053297713, y: 0.025686197, z: -0.01774391}
+    HandPos: {x: -0.092743665, y: 1.1341265, z: 0.42697713}
+  _ovrSkeleton: {fileID: 0}
+  _isSavingMode: 0
+--- !u!114 &3802079960902144103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802079960902144106}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53980037d421c6549a69b91305738173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tableTransform: {fileID: 0}
+  _detectionThreshold: 0.1
+  _spawner: {fileID: 0}
+  _gestures: []
+  _ovrSkeleton: {fileID: 0}
+  _isSavingMode: 0
